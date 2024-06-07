@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --links: #CC9966;
+    --dark_bg:#544639;
+    --menu-text: #EABC61;
+}
+.raleway{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.oswald{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900 ;
+    font-style: normal;
+  }
+.home-section{
+    background-image: url(../img/antique-cafe-bg-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    /* height: 100svh; */
+}
+.home-nav{
+    width: 100%;
+}
+.container{
+    width: 75%;
+    padding: 24px 8px;
+    margin: auto;
+}
+.home-nav .container ul{
+    list-style: none;
+    float: right;
+}
+
+.home-nav .container ul li{
+    display: inline-block;
+    font-size: 24px;
+    margin: 0px 10px;
+}
+.home-nav .container ul li a{
+    color: var(--links);
+    padding: 12px 16px;
+    scroll-behavior: smooth;
+    transition: .1s;
+}
+.home-nav .container ul li a:hover{
+    border-bottom: 4px solid var(--links);
+}
+.clear{
+    clear: both;
+}
+.home-content{
+    width: 420px;
+    margin: auto;
+    /* padding-top: 1px; */
+    padding: 98px 0px 200px;
+}
+.home-content .home-heders{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 48px;
+    margin: 0px 0px 20px;
+}
+.home-content .home-heders h1{
+    color: white;
+    font-size: 48px;
+    margin: 0px 0px 20px;
+}
+.home-content .home-heders p{
+    color: var(--links);
+    font-size: 20px;
+}
+.home-content .home-paragraph{
+    padding: 40px;
+    margin: 0px 0px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    line-height: 2;
+}
+.home-content .home-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.home-content .home-button a{
+    padding: 24px 32px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    border-radius: 5px;
+    color: var(--links);
+    font-size: 20px;
+    font-weight: bold;
+    transition: .2s;
+}
+.home-content .home-button a i{
+    margin-right: 8px;
+}
+.home-content .home-button a:hover{
+    color: white;
+}
+.menu{
+    width: 100%;
+    /* height: 100svh; */
+    background-image: url(../img/antique-cafe-bg-02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.menu .container{
+    padding: 192px 0px;
+}
+.menu .container .menu-header{
+    margin: 0px 0px 64px;
+}
+.menu .container .menu-header h2{
+    background-color: white;
+    color: black;
+    padding: 24px 48px;
+    text-align: center;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 36px;
+    font-weight: 500;
+}
+.menu .menu-content .items{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+.menu ul{
+    list-style: none;
+    background-color: var(--dark_bg);
+    border-radius: 20px;
+    padding: 40px 32px;
+    margin: 10px;
+}
+.menu ul li img{
+    border-radius: 5px;
+}
+.menu ul li{
+    margin:  0px 0px 24px;
+}
+.menu .menu-content .items .items-left li img{
+    float: left;
+}
+.menu .menu-content .items .items-left li .item-info{
+    float: left;
+    padding-left: 24px;
+}
+.menu .menu-content .items .items-right li img{
+    float: right;
+}
+.menu .menu-content .items .items-right li .item-info{
+    float: right;
+    padding-right: 24px;
+    text-align: right;
+}
+.menu .menu-content .items ul li .item-info h3{
+    color:var(--menu-text);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 12px;
+}
+.menu .menu-content .items ul li .item-info p{
+    color: rgba(245, 245, 245, 0.879);
+    margin: 0px 0px 4px;
+    font-size: 18px;
+}
+.about {
+    background-image: url(../img/antique-cafe-bg-03.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.about .container{
+    /* margin:0px 34.4px ; */
+    padding: 192px 0px;
+}
+.about .container .left{
+    width: 50%;
+    float: left;
+}
+.about .container .right{
+    width: 50%;
+    float: right;
+}
+.about .container .right .content-card{
+    margin: 0px 0px 20px;
+    margin: auto;
+    margin-left: 35px;
+}
+.about .container .right .content-card .text{
+    background-color: #FFFFFFCC;
+    padding: 48px 48px 56px;
+    border-radius: 10px;
+}
+.about .container .right .content-card *{
+    margin: 0px 0px 24px;
+}
+.about .container .right .content-card .text h2{
+    color: #006666;
+    font-size: 36px;
+    font-weight: 500;
+}
+.about .container .right .content-card .text p{
+    line-height: 2;
+    width: 97%;
+}
+.about .container .right a{
+    padding: 12px 32px 16px;
+    background-color: #006666;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.about .container .right a:hover{
+    background-color: #005b5b;
+}
+.contact{
+    width: 100%;
+    /* height: 100svh; */
+    background-image: url(../img/antique-cafe-bg-04.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact .container{
+    /* margin:0px 34.4px ; */
+    padding: 192px 0px;
+}
+.contact .container .left{
+    width: 50%;
+    float: left;
+}
+.contact .container .right{
+    width: 50%;
+    float: right;
+}
+.contact .container .left .content-card{
+    margin: 20px;
+    margin: auto;
+    margin-right: 35px;
+}
+.contact .container .left .content-card .text{
+    background-color: #FFFFFFCC;
+    padding: 48px 48px 56px;
+    border-radius: 10px;
+}
+.contact .container .left .content-card *{
+    margin: 0px 0px 24px;
+}
+.contact .container .left .content-card .text h2{
+    color: #006666;
+    font-size: 36px;
+    font-weight: 500;
+}
+.contact .container .left .content-card .text p{
+    font-size: 18px;
+    line-height: 2;
+    width: 100%;
+}
+.contact .container .left .btn-holder{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+.contact .container .left a{
+    font-size: 18px;
+    color: #006666;
+}
+.contact .container .left .btn{
+    padding: 24px 48px 24px 40px;
+    background-color: #006666;
+    color: white;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.contact .container .left .btn i{
+    padding-right: 30px;
+    margin: 0;
+}
+.contact .container .right .content-card{
+    margin: 0px 0px 20px;
+    margin: auto;
+    margin-left: 35px;
+    
+}
+.contact .container .right .content-card form{
+    background-color: #00000080;
+    padding: 48px 48px 56px;
+    border-radius: 10px;
+}
+.contact .container .right .content-card form .field ,textarea{
+    margin: 0px 0px 24px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: block;
+    color: white;
+}
+.contact .container .right .content-card form .field::placeholder ,textarea::placeholder{
+    color: rgb(188, 188, 188);
+}
+.contact .container .right .content-card form .field{
+    border-bottom: 1px solid #EABC61;
+    width: 100%;
+    margin: 0px 0px 16px;
+    padding: 16px 0px;
+    font-size: 18px;
+}
+.contact .container .right .content-card form textarea{
+    height: 215px;
+}
+.contact .container .right .content-card form .field:focus{
+    border: 1px solid #EABC61;
+    box-shadow: 0px 0px 5px 0px #EABC61;
+}
+.contact .right .content-card .btn-holder{
+    text-align: right;
+}
+.contact .right .content-card .btn-holder button{
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+.contact .right .content-card .btn-holder button:hover{
+    color: #EABC61;
+}
